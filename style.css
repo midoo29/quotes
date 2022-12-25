@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(rgb(75, 84, 95),#4851);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.nn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color:darkgoldenrod;
+    
+}
+#buster h1{
+font-size: 3em;
+font-weight: 900;
+margin-top: 20%;
+margin-left: 30%;
+width: fit-content;
+
+}
+#buster{
+    
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    z-index: 999;
+    pointer-events:none;
+    text-align: center;
+    
+    
+}
+.quote_n1{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding-top: 60px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.quote_n2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    
+}
+.quote_n1 h1{
+    font-size: 2.5em;
+    font-weight: 900;
+
+}
+#qu{
+    border: 2px solid yellow;
+    font-size: 1.6em;
+    border-radius: 6px;
+    padding: 30px 50px;
+    font-style: italic;
+    max-width:500px ;
+    height: auto;
+}
+button{
+    padding: 7px 12px;
+    background-color:rgb(75, 84, 95) ;
+    border: none;
+    border-radius: 6px;
+    color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+button:hover{
+   cursor: pointer;
+}
+.info{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+button:active{
+    transform: scale(0.98);
+}
+
+.label1{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#texx{
+    min-width:400px ;
+    min-height: 25px;
+    outline: none;
+    color:rgb(75, 84, 95) ;
+    font-size: 1.05em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+  /* Modal Content/Box */
+.modal-content {
+    background-color:aliceblue;
+    margin: 10% auto;/* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+  /* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
